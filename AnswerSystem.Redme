@@ -3,13 +3,14 @@
 一、技术栈
 1、springboot、mybatis、springmvc
 2、版本控制工具git
-3、项目管理工具gradle
+3、项目管理工具gradle（推荐4.7 https://gradle.org/next-steps/?version=4.7&format=bin)
 4、自动化部署工具jenkins
 二、开发环境搭建
 1、安装jdk（建议1.8）
 2、安装zookeeper 版本不限制
 3、安装 gradle
 4、git
+5、安装idea
 三、获取代码
 1、从github上找到项目的git地址，使用git clone "项目地址"
 2、本地跑单元测试
