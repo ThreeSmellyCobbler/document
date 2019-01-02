@@ -29,7 +29,7 @@ api为公用模块 member、admin、web都会依赖api。api项目为其他项�
 每一个建表的语句都必须在common模块的db包下给出。命名格式为参考以前代码。
 五、工具权限
 1、jenkins地址：http://101.132.143.173/jenkins 账号admin123 密码admin123
-1.1、使用说明：在develop的分支上开发的代码提供后Jenkins会自动打包（build）
+1.1、使用说明：在master的分支上开发的代码提供后Jenkins会自动打包（build）
 1.2、部署说明：打包完成后，web对应的是web模块项目  member对应的是member模块项目，需要生效可以自己点一下部署的按钮
 六、接口文档
 由于本项目集成了swagger框架，接口上的注解，可以仿造以前的代码。
