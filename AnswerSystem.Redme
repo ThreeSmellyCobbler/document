@@ -36,5 +36,12 @@ api为公用模块 member、admin、web都会依赖api。api项目为其他项�
 由于本项目集成了swagger框架，接口上的注解，可以仿造以前的代码。
 swagger地址：http://101.132.143.173:7070/web/service/swagger-ui.html
 
-
-
+#更新 fo-2019年1月4日13点55分
+项目导入-流程
+一、项目导入
+1、版本控制:Git -> git clone https://github.com/ThreeSmellyCobbler/AnswerSystem
+1.2、IDEA -> Import Project -> Improt project from external model 并且选中 Gradle -> Next
+1.3、勾选 Use auto-import -> Finish
+二、一些插件
+1、IDEA 安装 lombok -> File/Settings/Build,Execution,Deployment/Annotation Processors -> 勾选 Enable annotation processing
+1.1、重启IDEA
