@@ -21,7 +21,7 @@
 common 提供公用的服务、比如http请求的相关方法、邮件服务，还有数据库脚本存放在common里面。
 admin 提供答题系统后台管理的相关接口
 web 提供答题系统相关接口
-member 提供对外的接口
+member 提供user相关的服务
 api为公用模块 member、admin、web都会依赖api。api项目为其他项目调用member的dubbo服务的桥梁
 2、配置说明
 每个项目都有一个config包，该包类下的类是Springboot的配置类，每个类我都有注释
